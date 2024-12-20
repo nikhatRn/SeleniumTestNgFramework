@@ -25,6 +25,7 @@ public class Logintestcases extends BaseClass {
         String Expectedresult=constants.expectedmsg;
         String actualResult=lpo.enterloginsuccessful().getText();
         commonMethods.handleAssertion(actualResult, Expectedresult);
+        //rahultest also added changes
 	}
 
 }
